@@ -1,5 +1,6 @@
 <template>
   <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <img class="icone" src='../../public/centre_equestre.jpg' />
     <a class="navbar-brand" href="#">Centre Equestre</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,5 +25,10 @@ export default {
 </script>
 
 <style>
+
+.icone{
+  height: 5rem;
+  width: 5rem;
+}
 
 </style>
