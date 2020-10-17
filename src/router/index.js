@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Contact from '../views/Contact.vue'
 import Horses from '../views/Horses.vue'
@@ -33,10 +33,15 @@ const routes = [
     name: 'Horses',
     component: Horses
   },
+  {
+    path: "/:catchAll(.*)",
+    name: "NotFound",
+    redirect: "/",
+  }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 
