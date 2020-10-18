@@ -3,17 +3,17 @@
     <h1>Nos chevaux</h1>
     <div class="container-md">
       <div class="row">
-        <div v-for="(horse,idx) in horses" :key=idx>
+        <div v-for="(horse,idx) in horses" :key=idx class="col-12 col-sm-6 col-lg-4">
           <div class="card mb-3">
             <div class="row no-gutters">
-              <div class="col-md-4" :class="{'order-md-2': (idx%2==1)}">
+              <div class="">
                 <img
                   :src="horse.image"
-                  class="card-img"
-                  :alt="horse.alt"
+                  class="card-img img-responsive"
+                  :alt="'image ' + horse.name"
                 />
               </div>
-              <div class="col-md-8" :class="{'order-md-1': (idx%2==1)}">
+              <div class="">
                 <div class="card-body">
                   <h5 class="card-title">{{horse.name}}</h5>
                   <p class="card-text">
@@ -45,4 +45,9 @@ export default {
 </script>
 
 <style>
+.img-responsive{
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+}
 </style>
