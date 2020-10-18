@@ -1,7 +1,7 @@
 <template>
-  <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light">
     <img class="icone" src='../../public/centre_equestre.jpg' />
-    <a class="navbar-brand mx-md-2" href="#">Centre Équestre Fleurie</a>
+    <a class="navbar-brand mx-md-2 d-none d-sm-flex" href="#">Centre Équestre Fleurie</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,5 +30,12 @@ export default {
   height: 5rem;
   width: 5rem;
 }
+
+@media (max-width: 576px) { 
+  #nav a{
+    font-size: 2rem;
+  } 
+}
+
 
 </style>
