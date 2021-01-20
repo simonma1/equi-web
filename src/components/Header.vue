@@ -1,6 +1,6 @@
 <template>
   <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light">
-    <img class="icone" src='../../public/centre_equestre.jpg' />
+    <img class="icone" src='@/assets/centre_equestre.jpg' alt="image-chevaux-accueil" />
     <a class="navbar-brand mx-md-2 d-none d-sm-flex" href="#">Centre Équestre Fleurie</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

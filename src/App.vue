@@ -25,6 +25,10 @@ export default {
   color: rgb(182,164,128);
 }
 
+#app a{
+  color: rgb(182,164,128);
+}
+
 #nav {
   padding: 0 1rem;
 }
