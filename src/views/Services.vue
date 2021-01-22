@@ -17,7 +17,7 @@
                     <td>25$</td>
                 </tr>
                 <tr>
-                    <th scope="row">Carte(10)</th>
+                    <th scope="row">Carte (10)</th>
                     <td>350$</td>
                     <td>225$</td>
                 </tr>
