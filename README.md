@@ -1,4 +1,5 @@
 # equi-web
+https://simonma1.github.io/equi-web/#/
 
 ## Project setup
 ```
