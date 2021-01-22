@@ -1,54 +1,59 @@
 {
  "horses":[
      {
-         "image": "https://drive.google.com/uc?export=view&id=1p27WXEDmOJ8DBo0Ntfd8Jbrkvl88hANY",
+         "image": "https://equi.blob.core.windows.net/equiweb/Sheldon.jpg",
          "name" : "Shwelly",
          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centur"
      },
      {
-        "image": "https://drive.google.com/uc?export=view&id=1oibBz_R3axa0c2xXi6hL8aopu3dvv8cw",
+        "image": "https://equi.blob.core.windows.net/equiweb/Sand.jpg",
         "name" : "Sand Castle",
         "description": "Autre texteLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centur"
     },
     {
-        "image": "https://drive.google.com/uc?export=view&id=1oh5-bwuEzmYGrJskW-HHroiEVwYvj9mO",
+        "image": "https://equi.blob.core.windows.net/equiweb/Malcom.jpg",
         "name" : "Malcolm",
         "description": "Autre texteLorem Ipsum is simply dummy text of the pri",
         "objectPosition": "100% 50%"
     },
     {
-        "image": "https://drive.google.com/uc?export=view&id=13yD_m3IrUbGSGAB0HCbXV81k49BwjktU",
+        "image": "https://equi.blob.core.windows.net/equiweb/Charlie.jpg",
         "name" : "Charlie",
         "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
     },
     {
-        "image": "https://drive.google.com/uc?export=view&id=1DeCqtJREb-1EEtRObdyE-ewcpZRgkZNw",
+        "image": "https://equi.blob.core.windows.net/equiweb/Lilas (3).jpg",
         "name" : "Lilas",
         "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
     },
     {
-        "image": "https://drive.google.com/uc?export=view&id=1DXfJSFMGrT1pKg6y4EdyVAqkIlOBVS5d",
+        "image": "https://equi.blob.core.windows.net/equiweb/Dallas.jpg",
         "name" : "Dallas",
         "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
     },
     {
-        "image": "https://drive.google.com/uc?export=view&id=1YECzDYyuRk7pwH7ftQ9FuoK34c_j5g1p",
+        "image": "https://equi.blob.core.windows.net/equiweb/Nairobi (3).jpg",
         "name" : "Nairobi",
         "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
     },
     {
-        "image": "https://drive.google.com/uc?export=view&id=1NoqrpUFkcoc38d56voFP3bJnecmCtOlN",
+        "image": "https://equi.blob.core.windows.net/equiweb/Bailey.jpg",
         "name" : "Bailey",
         "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
     },
     {
-        "image": "https://drive.google.com/uc?export=view&id=1fusrLKRlWS0t58eC0aEX1MvMf67s6rvo",
+        "image": "https://equi.blob.core.windows.net/equiweb/Lucky.jpg",
         "name" : "Lucky",
         "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
     },
     {
-        "image": "https://drive.google.com/uc?export=view&id=1CGSITNFJVeYwDWCbrTUg7I42PiknH4iD",
+        "image": "https://equi.blob.core.windows.net/equiweb/Willy.jpg",
         "name" : "Willy Wonka",
+        "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
+    },
+    {
+        "image": "https://equi.blob.core.windows.net/equiweb/Amika.jpg",
+        "name" : "Amika",
         "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
     }
  ]   
