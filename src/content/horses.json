@@ -8,13 +8,14 @@
      {
         "image": "https://equi.blob.core.windows.net/equiweb/Sand.jpg",
         "name" : "Sand Castle",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centur"
+        "description": "Autre texteLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centur",
+        "objectPosition": "100% 20%"
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Malcom.jpg",
         "name" : "Malcolm",
         "description": "Autre texteLorem Ipsum is simply dummy text of the pri",
-        "objectPosition": "100% 50%"
+        "objectPosition": "100% 25%"
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Charlie.jpg",
@@ -24,7 +25,8 @@
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Lilas (3).jpg",
         "name" : "Lilas",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
+        "description": "Autre texteLorem Ipsum is simply dummy text of the pri",
+        "objectPosition": "100% 20%"
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Dallas.jpg",
@@ -34,7 +36,8 @@
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Nairobi (3).jpg",
         "name" : "Nairobi",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
+        "description": "Autre texteLorem Ipsum is simply dummy text of the pri",
+        "objectPosition": "100% 20%"
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Bailey.jpg",
@@ -49,7 +52,8 @@
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Willy.jpg",
         "name" : "Willy Wonka",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
+        "description": "Autre texteLorem Ipsum is simply dummy text of the pri",
+        "objectPosition": "100% 15%"
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Amika.jpg",

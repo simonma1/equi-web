@@ -5,6 +5,7 @@
         <img
             :src="horse.image"
             class="card-img img-responsive"
+            :style="objectPosition"
             :alt="'image ' + horse.name"
         />
         </div>
@@ -25,11 +26,18 @@ export default {
     name: "Horses",
     props: ['horse'],
     computed: {
-
+        objectPosition: function(){
+            if(this.horse.objectPosition){
+                return {
+                    'object-position': this.horse.objectPosition
+                }
+            }
+            return {};
+        }
     }
 }
 </script>
 
 <style>
 
-</style>'
+</style>
