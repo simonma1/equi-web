@@ -45,4 +45,8 @@ export default {
 .icon{
   height: 2rem;
 }
+
+.img-ref{
+  font-size: 0.25rem;
+}
 </style>

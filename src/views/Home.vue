@@ -19,6 +19,7 @@
               <img class="icon pr-3" :src="require('@/assets/' + horseIcon.image)" :alt="horseIcon.alt">
               <div>{{horseIcon.message}}</div>
             </div>
+            <div class="img-ref mt-1">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
           </div>
         </div>
       </div>

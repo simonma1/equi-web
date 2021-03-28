@@ -69,10 +69,6 @@ export default {
   width: 25rem;
 }
 
-.img-ref{
-  font-size: 0.25rem;
-}
-
 .address{
   margin-top:1rem;
   line-height: 1rem;

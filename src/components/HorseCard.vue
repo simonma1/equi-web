@@ -9,13 +9,15 @@
             :alt="'image ' + horse.name"
         />
         </div>
-        <div class="">
-        <div class="card-body">
-            <h5 class="card-title">{{horse.name}}</h5>
-            <p class="card-text">
-            {{horse.description}}
-            </p>             
-        </div>
+        <div class="w-100">
+            <div class="card-body">
+                <h5 class="card-title">{{horse.name}}</h5>
+                <p class="card-text">
+                <ul>
+                    <li class="text-left" v-for="descItem in horse.description" :key="descItem">{{descItem}}</li>
+                </ul>
+                </p>             
+            </div>
         </div>
     </div>
 </div>

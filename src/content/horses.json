@@ -2,63 +2,95 @@
  "horses":[
      {
          "image": "https://equi.blob.core.windows.net/equiweb/Sheldon.jpg",
-         "name" : "Shwelly",
-         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centur"
+         "name" : "Sheldon",
+         "description": [
+            "Thoroughbred",
+            "20 ans"
+        ]
      },
      {
         "image": "https://equi.blob.core.windows.net/equiweb/Sand.jpg",
         "name" : "Sand Castle",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centur",
+        "description": [
+            "Appendix",
+            "22 ans"
+        ],
         "objectPosition": "100% 20%"
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Malcom.jpg",
         "name" : "Malcolm",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri",
+        "description": [
+            "Standarbred x Appaloosa",
+            "14 ans"
+        ],
         "objectPosition": "100% 25%"
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Charlie.jpg",
         "name" : "Charlie",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
+        "description": [
+            "Quarter horse x Canadien",
+            "16 ans"
+        ]
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Lilas (3).jpg",
         "name" : "Lilas",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri",
+        "description": [
+            "Welsh poney croisé",
+            "20 ans"
+        ],
         "objectPosition": "100% 20%"
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Dallas.jpg",
         "name" : "Dallas",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
+        "description": [
+            "Thoroughbred",
+            "18 ans"
+        ]
     },
     {
-        "image": "https://equi.blob.core.windows.net/equiweb/Nairobi (3).jpg",
+        "image": "https://equi.blob.core.windows.net/equiweb/Nairobi.jpg",
         "name" : "Nairobi",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri",
-        "objectPosition": "100% 20%"
+        "description": [
+            "Thoroughbred",
+            "14 ans"
+        ]
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Bailey.jpg",
         "name" : "Bailey",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
+        "description": [
+            "Paint horse",
+            "16 ans"
+        ]
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Lucky.jpg",
         "name" : "Lucky",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
+        "description": [
+            "Appendix",
+            "21 ans"
+        ]
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Willy.jpg",
         "name" : "Willy Wonka",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri",
+        "description": [
+            "Quarter Horse",
+            "22 ans"
+        ],
         "objectPosition": "100% 15%"
     },
     {
         "image": "https://equi.blob.core.windows.net/equiweb/Amika.jpg",
         "name" : "Amika",
-        "description": "Autre texteLorem Ipsum is simply dummy text of the pri"
+        "description": [
+            "Percheron",
+            "16 ans"
+        ]
     }
  ]   
 }
