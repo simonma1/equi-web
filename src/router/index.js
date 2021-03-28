@@ -7,7 +7,7 @@ import Services from '../views/Services.vue'
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'Accueil',
     component: Home
   },
   {

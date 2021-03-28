@@ -9,7 +9,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <div class="navbar-nav mr-auto d-flex  w-75 ml-5">
-      <router-link class="nav-item mx-3"  to="/">Home</router-link>
+      <router-link class="nav-item mx-3"  to="/">Accueil</router-link>
       <router-link class="nav-item mx-3" to="/services">Services</router-link>
       <router-link class="nav-item mx-3" to="/nos-chevaux">Nos chevaux</router-link>
       <router-link class="nav-item mx-3" to="/contact">Contact</router-link>
