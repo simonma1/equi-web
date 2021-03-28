@@ -3,13 +3,25 @@
     <div>
       <img class="img-accueil" alt="Vue logo" src="https://images.unsplash.com/photo-1547581849-38ba650ad0de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
     </div>
-    <div class="container">
-      <p>
-        Bienvenue au Centre Équestre Fleurie! Une écurie chaleureuse où les chevaux y sont traités aux
-        petits soins. Plusieurs services y sont offerts, entre autres pension intérieure et extérieure,
-        cours, entraînements et plusieurs autres. Venez visiter nos installations et vous serez charmé
-        par l’ambiance.
-      </p>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-justify">
+            Bienvenue au Centre Équestre Fleurie! Une écurie chaleureuse où les chevaux y sont traités aux
+            petits soins. Plusieurs services y sont offerts, entre autres pension intérieure et extérieure,
+            cours, entraînements et plusieurs autres. Venez visiter nos installations et vous serez charmé
+            par l’ambiance.
+          </p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+          <div class="">
+            <div v-for="horseIcon in horseIcons" :key="horseIcon.message"  class="d-flex flex-row align-items-center py-1">
+              <img class="icon pr-3" :src="require('@/assets/' + horseIcon.image)" :alt="horseIcon.alt">
+              <div>{{horseIcon.message}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>  
   </div>
 </template>
@@ -19,6 +31,28 @@
 export default {
   name: 'Home',
   components: {
+  },
+  computed:{
+    horseIcons: function(){
+      return [
+        {
+          "message": "Pension intérieure/extérieure",
+          "image": "black-head-horse-side-view-with-horsehair.svg",
+          "alt": "icone-cheval"
+        },
+        {
+          "message": "Cours et entrainement classique",
+          "image": "fence-for-horses-jumps.svg",
+          "alt": "icone-haie-de-saut"
+        },
+        {
+          "message": "Fête d'enfants",
+          "image": "party-hat.svg",
+          "alt": "icone-chapeau-de-fete"
+        }
+      ]      
+
+    }
   }
 }
 </script>

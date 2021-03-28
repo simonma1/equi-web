@@ -41,4 +41,8 @@ export default {
 #nav a.router-link-exact-active {
   color: rgb(57,94,61);
 }
+
+.icon{
+  height: 2rem;
+}
 </style>

@@ -11,13 +11,13 @@
           <div class="">
             <div class="mb-2">
               <a href="https://www.facebook.com/Centre-%C3%89questre-Fleurie-1798572710283110/?ref=page_internal">
-                <img class="icon" src="@/assets/facebook.svg">
+                <img class="icon" src="@/assets/facebook.svg" alt="icone-facebook">
                 <span class="ml-2">Facebook</span>
               </a>
             </div>
             <div>
               <a href="https://www.instagram.com/centre.equestre.fleurie/">
-                <img class="icon" src="@/assets/instagram.svg">
+                <img class="icon" src="@/assets/instagram.svg" alt="icone-instagram">
                 <span class="ml-2">Instagram</span>
               </a>
             </div>
@@ -67,10 +67,6 @@ export default {
 #map{
   height: 25rem;
   width: 25rem;
-}
-
-.icon{
-  height: 2rem;
 }
 
 .img-ref{
