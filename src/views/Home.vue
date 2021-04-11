@@ -25,19 +25,24 @@
       <div class="mt-4">
         <Services></Services>
       </div>
+      <div>
+        <Pensions></Pensions>
+      </div>
     </div>  
   </div>
 </template>
 
 <script>
 import Carousel from "@/components/Carousel"
+import Pensions from "@/components/Pensions"
 import Services from "@/views/Services"
 
 export default {
   name: 'Home',
   components: {
     Carousel,
-    Services
+    Services,
+    Pensions
   },
   computed:{
     horseIcons: function(){

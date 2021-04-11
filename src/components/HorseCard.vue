@@ -2,16 +2,16 @@
   <div class="card mb-3">
     <div class="row no-gutters">
         <div class="">
-        <img
-            :src="horse.image"
-            class="card-img img-responsive"
-            :style="objectPosition"
-            :alt="'image ' + horse.name"
-        />
+            <img
+                :src="horse.image"
+                class="card-img img-responsive"
+                :style="objectPosition"
+                :alt="'image ' + horse.name"
+            />
         </div>
         <div class="w-100">
             <div class="card-body">
-                <h5 class="card-title">{{horse.name}}</h5>
+                <h5 class="card-title horse-name">{{horse.name}}</h5>
                 <p class="card-text">
                 <ul>
                     <li class="text-left" v-for="descItem in horse.description" :key="descItem">{{descItem}}</li>
@@ -41,5 +41,10 @@ export default {
 </script>
 
 <style>
+
+.horse-name{
+    color: rgb(57,94,61);
+    font-weight: bold;
+}
 
 </style>
