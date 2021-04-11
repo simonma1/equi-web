@@ -22,17 +22,22 @@
           </div>
         </div>
       </div>
+      <div class="mt-4">
+        <Services></Services>
+      </div>
     </div>  
   </div>
 </template>
 
 <script>
 import Carousel from "@/components/Carousel"
+import Services from "@/views/Services"
 
 export default {
   name: 'Home',
   components: {
-    Carousel
+    Carousel,
+    Services
   },
   computed:{
     horseIcons: function(){

@@ -2,7 +2,6 @@
     <div class="container">
         <h1>Nos services</h1>
         <table class="table">
-            <caption>List of users</caption>
             <thead>
                 <tr>
                     <th scope="col"></th>
